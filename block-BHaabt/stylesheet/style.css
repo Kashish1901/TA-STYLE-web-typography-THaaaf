@@ -63,11 +63,23 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.align-start{
+    align-items: flex-start;
+}
+.col-1-2{
+    flex: 0 1 45%;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 30px;
+}
 .header{
     font-size: 30px;
     padding: 20px;
     font-weight: 700px;
-    vertical-align: middle;
+    line-height: 1.1;
 }
 .div{
     color: rgb(45,38,64);
@@ -95,7 +107,7 @@ h1 ,
 h2{
     font-size: 60px;
     text-transform: capitalize;
-    font-family: Dm serif Display;
+    font-family: "Dm serif Display" , serif;
     font-weight: 700px;
 }
 .hero{
@@ -119,8 +131,7 @@ p{
 }
 .article img{
     width: 700px;
-    height: 500px;
-    margin-right: 50px;
+    margin-bottom: -20px;
 }
 h3{
     font-size: 40px;
